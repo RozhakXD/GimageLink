@@ -6,7 +6,7 @@
 ## Fitur
 - **Konversi Gambar ke Link**: Mengubah gambar menjadi link pencarian yang cocok.
 - **Pencarian Tepat Sasaran**: Mencari gambar dengan tingkat kecocokan tinggi melalui Google Lens dan reverse image search.
-- **Tampilan Dinamis**: Opsi untuk menampilkan hasil dengan format yang rapi menggunakan modul Rich atau tampilan sederhana agar tautan lebih mudah disalin.
+- **Tampilan Dinamis**: Pilihan hasil tampilan rapi dengan modul Rich atau output standar untuk memudahkan salin tautan.
 - **Dukungan Format Gambar**: Mendukung berbagai format gambar seperti JPG, PNG, dan lainnya.
 
 ## Persyaratan
