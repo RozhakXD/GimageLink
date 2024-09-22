@@ -57,7 +57,7 @@ Jika Anda menemukan bug lainnya, harap laporkan melalui Issues.
 ![FunPic_20240922](https://github.com/user-attachments/assets/073b152d-f17f-4ae3-b4c4-45b42d5200ab)
 
 ## Dukungan
-Jika Anda merasa program ini bermanfaat, Anda dapat mendukung pengembangan lebih lanjut melalui donasi. Terima kasih atas dukungannya!
+Jika Anda merasa program ini bermanfaat, dukung pengembangan lebih lanjut dengan berdonasi. Terima kasih atas dukungan Anda!
 
 - [Trakteer](https://trakteer.id/rozhak_official/tip)
 - [PayPal](https://paypal.me/rozhak9)
