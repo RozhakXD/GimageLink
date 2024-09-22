@@ -47,9 +47,9 @@ Setelah menjalankan program, masukkan path gambar yang ingin dicari, misalnya:
 Kemudian program akan segera mencari kecocokan gambar di Google dan menampilkan hasilnya sesuai format yang Anda pilih.
 
 ## Masalah yang Diketahui
+- **Tautan Tidak Bisa Disalin**: Jika menggunakan tampilan Rich, pastikan Anda menggunakan output standar jika ingin mudah menyalin tautan.
 - **Gambar Tidak Ditemukan**: Jika gambar tidak memberikan hasil pencarian yang cocok, pastikan file gambar ada di direktori yang benar.
 - **Kecocokan Tidak Akurat**: Kadang, hasil pencarian mungkin tidak akurat jika gambar memiliki kualitas rendah atau elemen yang tidak mudah dikenali oleh algoritma Google.
-- **Tautan Tidak Bisa Disalin**: Jika menggunakan tampilan Rich, pastikan Anda menggunakan output standar jika ingin mudah menyalin tautan.
 
 Jika Anda menemukan bug lainnya, harap laporkan melalui Issues.
 
@@ -57,7 +57,7 @@ Jika Anda menemukan bug lainnya, harap laporkan melalui Issues.
 ![FunPic_20240922](https://github.com/user-attachments/assets/073b152d-f17f-4ae3-b4c4-45b42d5200ab)
 
 ## Dukungan
-Jika Anda merasa program ini bermanfaat, Anda bisa membantu pengembangannya melalui donasi. Setiap dukungan sangat berarti! Terima kasih!
+Jika merasa program ini bermanfaat, Anda bisa membantu pengembangannya melalui donasi. Setiap dukungan sangat berarti! Terima kasih!
 
 - [Trakteer](https://trakteer.id/rozhak_official/tip)
 - [PayPal](https://paypal.me/rozhak9)
