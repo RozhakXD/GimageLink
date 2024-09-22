@@ -51,7 +51,7 @@ Kemudian program akan segera mencari kecocokan gambar di Google dan menampilkan 
 - **Tautan Sulit Disalin**: Jika Anda menggunakan tampilan Rich, pertimbangkan untuk beralih ke output standar agar lebih mudah menyalin tautan yang dihasilkan.
 - **Kecocokan Tidak Akurat**: Hasil pencarian mungkin kurang tepat jika gambar memiliki kualitas rendah atau mengandung elemen yang sulit dikenali oleh algoritma Google.
 
-Jika Anda menemukan bug lainnya, harap laporkan melalui Issues.
+Jika Anda menemukan bug lainnya, harap laporkan melalui [Issues](https://github.com/RozhakXD/GimageLink/issues).
 
 ## Tangkapan Layar
 ![FunPic_20240922](https://github.com/user-attachments/assets/073b152d-f17f-4ae3-b4c4-45b42d5200ab)
