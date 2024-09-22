@@ -47,9 +47,9 @@ Setelah menjalankan program, masukkan path gambar yang ingin dicari, misalnya:
 Kemudian program akan segera mencari kecocokan gambar di Google dan menampilkan hasilnya sesuai format yang Anda pilih.
 
 ## Masalah yang Diketahui
-- **Tautan Sulit Disalin**: Jika menggunakan tampilan Rich, gunakan output standar untuk memudahkan penyalinan tautan.
 - **Gambar Tidak Ditemukan**: Pastikan file gambar ada di direktori yang benar jika tidak ada hasil pencarian.
-- **Kecocokan Tidak Akurat**: Hasil pencarian bisa tidak akurat jika gambar berkualitas rendah atau memiliki elemen sulit dikenali oleh algoritma Google.
+- **Tautan Sulit Disalin**: Jika Anda menggunakan tampilan Rich, pertimbangkan untuk beralih ke output standar agar lebih mudah menyalin tautan yang dihasilkan.
+- **Kecocokan Tidak Akurat**: Hasil pencarian mungkin kurang tepat jika gambar memiliki kualitas rendah atau mengandung elemen yang sulit dikenali oleh algoritma Google.
 
 Jika Anda menemukan bug lainnya, harap laporkan melalui Issues.
 
