@@ -38,13 +38,13 @@
 4. Hasil akan ditampilkan sebagai daftar link yang cocok berdasarkan pencarian gambar di Google.
 
 ## Contoh Penggunaan
-Setelah menjalankan program, Anda akan diminta untuk memasukkan path gambar, misalnya:
+Setelah menjalankan program, masukkan path gambar yang ingin dicari, misalnya:
 
 ```markdown
 > Temp/Image.jpg
 ```
 
-Kemudian program akan mencari kecocokan gambar di Google, dan menampilkan hasilnya dalam format yang dipilih.
+Program akan segera mencari kecocokan gambar di Google dan menampilkan hasilnya sesuai format yang Anda pilih.
 
 ## Masalah yang Diketahui
 - **Gambar Tidak Ditemukan**: Jika gambar tidak memberikan hasil pencarian yang cocok, pastikan file gambar ada di direktori yang benar.
