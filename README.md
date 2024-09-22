@@ -44,7 +44,7 @@ Setelah menjalankan program, masukkan path gambar yang ingin dicari, misalnya:
 > Temp/Image.jpg
 ```
 
-Program akan segera mencari kecocokan gambar di Google dan menampilkan hasilnya sesuai format yang Anda pilih.
+Kemudian program akan segera mencari kecocokan gambar di Google dan menampilkan hasilnya sesuai format yang Anda pilih.
 
 ## Masalah yang Diketahui
 - **Gambar Tidak Ditemukan**: Jika gambar tidak memberikan hasil pencarian yang cocok, pastikan file gambar ada di direktori yang benar.
