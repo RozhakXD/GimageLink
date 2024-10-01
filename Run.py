@@ -142,7 +142,7 @@ class CONVERT:
                         if 'google' in str(self.DECODED_URL):
                             continue
                         else:
-                            DUMPS.append(f'{self.DECODED_URL}')
+                            DUMPS.append(f'{self.DECODED_URL.replace("amp;", "")}')
                     if len(DUMPS) != 0:
                         return (True)
                     else:
@@ -191,7 +191,7 @@ class CONVERT:
             for URL in self.URL_FINDER:
                 if 'encrypted' not in str(URL):
                     self.CLEANED_URL = re.sub(r'(https://[^\s]+)[^\w/]', r'\1', URL).replace('\\', '')
-                    DUMPS.append(f'{self.CLEANED_URL}')
+                    DUMPS.append(f'{self.CLEANED_URL.replace("amp;", "")}')
                 else:
                     continue
             if len(DUMPS) != 0:
