@@ -27,12 +27,12 @@ class FEATURE:
         )
 
         printf(
-            Panel(f"[bold white]Please fill in the image file you want to search for, make sure it is available in the correct director\ny, for example:[bold green] Temp/Image.jpg[bold white] *[bold red]only input one image!", width=59, style="bold bright_black", title="> [ File Gambar ] <", subtitle="╭───────", subtitle_align="left")
+            Panel(f"[bold white]Please fill in the image file you want to search for, make sure it is available in the correct director\ny, for example:[bold green] Temp/Image.jpg[bold white] *[bold red]only input one image!", width=59, style="bold bright_black", title="[bold bright_black]> [ File Gambar ] <", subtitle="[bold bright_black]╭───────", subtitle_align="left")
         )
         self.IMAGES = Console().input("[bold bright_black]   ╰─> ")
         if os.path.exists(self.IMAGES) == True:
             printf(
-                Panel(f"[bold white]Do you want to use print from rich module or not, if you want type[bold green] Y[bold white] if not type[bold red] N[bold white]. Consider\nnot using pretty print so the link can be copied!", width=59, style="bold bright_black", title="> [ Tampilan ] <", subtitle="╭───────", subtitle_align="left")
+                Panel(f"[bold white]Do you want to use print from rich module or not, if you want type[bold green] Y[bold white] if not type[bold red] N[bold white]. Consider\nnot using pretty print so the link can be copied!", width=59, style="bold bright_black", title="[bold bright_black]> [ Tampilan ] <", subtitle="[bold bright_black]╭───────", subtitle_align="left")
             )
             self.PRETTY_PRINT = Console().input("[bold bright_black]   ╰─> ")
             if str(self.PRETTY_PRINT.upper()) == "N":
@@ -40,7 +40,7 @@ class FEATURE:
             else:
                 self.PRINT = True
             printf(
-                Panel(f"[bold white]You can use CTRL + Z to stop, if the search fails there is likely no exact match, as\nthis only looks for exact matches in the image!", width=59, style="bold bright_black", title="> [ Catatan ] <")
+                Panel(f"[bold white]You can use CTRL + Z to stop, if the search fails there is likely no exact match, as\nthis only looks for exact matches in the image!", width=59, style="bold bright_black", title="[bold bright_black]> [ Catatan ] <")
             )
             CLASS = CONVERT()
             CLASS.IMAGES(files=self.IMAGES)
@@ -63,13 +63,13 @@ class FEATURE:
                     LOOPING += 1
                 pass
             printf(
-                Panel(f"[bold green]Congratulations![bold white] you have successfully collected[bold red] {len(DUMPS)}[bold white] ex\nact match links from google search by Image!", width=59, style="bold bright_black", title="> [ Selesai ] <")
+                Panel(f"[bold green]Congratulations![bold white] you have successfully collected[bold red] {len(DUMPS)}[bold white] ex\nact match links from google search by Image!", width=59, style="bold bright_black", title="[bold bright_black]> [ Selesai ] <")
             )
             Console().input("[bold white][[bold green]Selesai[bold white]]")
             sys.exit()
         else:
             printf(
-                Panel(f"[bold red]The file you entered is not available, please enter the correct file and make sure the image is available!", width=59, style="bold bright_black", title="> [ File Kosong ] <")
+                Panel(f"[bold red]The file you entered is not available, please enter the correct file and make sure the image is available!", width=59, style="bold bright_black", title="[bold bright_black]> [ File Kosong ] <")
             )
             sys.exit()
 
@@ -153,12 +153,12 @@ class CONVERT:
                         return (True)
                     else:
                         printf(
-                            Panel(f"[bold red]Sorry, we couldn't find any links or exact matches for this image, please try another image!", width=59, style="bold bright_black", title="> [ Empty Link ] <")
+                            Panel(f"[bold red]Sorry, we couldn't find any links or exact matches for this image, please try another image!", width=59, style="bold bright_black", title="[bold bright_black]> [ Empty Link ] <")
                         )
                         sys.exit()
                 else:
                     printf(
-                        Panel(f"[bold red]Sorry, we couldn't find any links or exact matches for this image, please try another image!", width=59, style="bold bright_black", title="> [ Empty Link ] <")
+                        Panel(f"[bold red]Sorry, we couldn't find any links or exact matches for this image, please try another image!", width=59, style="bold bright_black", title="[bold bright_black]> [ Empty Link ] <")
                     )
                     sys.exit()
 
@@ -204,7 +204,7 @@ class CONVERT:
                 return True
             else:
                 printf(
-                    Panel(f"[bold red]Sorry, we couldn't find any links or exact matches for this image, please try another image!", width=59, style="bold bright_black", title="> [ Empty Link ] <")
+                    Panel(f"[bold red]Sorry, we couldn't find any links or exact matches for this image, please try another image!", width=59, style="bold bright_black", title="[bold bright_black]> [ Empty Link ] <")
                 )
                 sys.exit()
 
@@ -214,7 +214,7 @@ if __name__ == "__main__":
         FEATURE().MAIN()
     except (Exception) as e:
         printf(
-            Panel(f"[bold red]{str(e).capitalize()}!", width=59, style="bold bright_black", title="> [ Error ] <")
+            Panel(f"[bold red]{str(e).capitalize()}!", width=59, style="bold bright_black", title="[bold bright_black]> [ Error ] <")
         )
         sys.exit()
     except (KeyboardInterrupt):
