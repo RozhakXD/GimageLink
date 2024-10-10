@@ -5,7 +5,7 @@ try:
     from rich import print as printf
     from requests_toolbelt import MultipartEncoder
 except (ModuleNotFoundError) as e:
-    __import__('os').exit(f"[Error] {str(e).capitalize()}!")
+    __import__('sys').exit(f"[Error] {str(e).capitalize()}!")
 
 DUMPS = []
 
@@ -17,7 +17,13 @@ class FEATURE:
     def MAIN(self):
         os.system('cls' if os.name == 'nt' else 'clear')
         printf(
-            Panel("[bold red]     _____       _             _      _       _    \n    / ____|     (_)           | |    (_)     | |   \n   | |  __  ___  _ _ __ ___   | |     _ _ __ | | __\n   | | |_ |/ _ \| | '_ ` _ \  | |    | | '_ \| |/ /\n   | |__| | (_) | | | | | | | | |____| | | | |   < \n[bold white]    \_____|\___/|_|_| |_| |_| |______|_|_| |_|_|\_\ \n          [underline green]Google Image To Link - by Rozhak", width=59, style="bold bright_black")
+            Panel(r"""[bold red]     _____       _             _      _       _    
+    / ____|     (_)           | |    (_)     | |   
+   | |  __  ___  _ _ __ ___   | |     _ _ __ | | __
+   | | |_ |/ _ \| | '_ ` _ \  | |    | | '_ \| |/ /
+   | |__| | (_) | | | | | | | | |____| | | | |   < 
+[bold white]    \_____|\___/|_|_| |_| |_| |______|_|_| |_|_|\_\ 
+          [underline green]Google Image To Link - by Rozhak""", width=59, style="bold bright_black")
         )
 
         printf(
